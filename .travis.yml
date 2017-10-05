@@ -1,18 +1,16 @@
 language: python
 python:
-  - "2.6"
   - "2.7"
   - "3.4"
   - "3.5"
   - "3.6"
 env:
-  - DJANGO_VERSION=1.7.8
   - DJANGO_VERSION=1.8.2
   - DJANGO_VERSION=1.11
 before_install:
-  - apt-get -y update
-  - apt-get -y install python3-pip
-  - apt-get -y install python3-dev python3-setuptools
+  - sudo apt-get -y update
+  - sudo apt-get -y install python3-pip
+  - sudo apt-get -y install python3-dev python3-setuptools
 install:
   - pip install -q Django==$DJANGO_VERSION
   - pip install -r requirements.txt
