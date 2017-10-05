@@ -1,6 +1,11 @@
 # RaktaDan
 A Blood Donation Application.
 
+Technology Stack:- 
+
+Python + Django + Django-Rest + postgresql + AngularJs (frontend)
+
+
 Project Goal:- 
 
 1. Login and Signup [local database authentication]
